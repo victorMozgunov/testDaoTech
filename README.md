@@ -1,3 +1,23 @@
+# Getting Started with Docker
+
+## Docker Images
+
+DockerHub: https://hub.docker.com/repository/docker/indusboyy/todolist
+
+# Usage Docker Image
+
+Pull image:
+
+### `docker pull indusboyy/todolist`
+
+Create container:
+
+### `docker run -p 3000:3000 -d --rm --name todolist indusboyy/todolist`
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
